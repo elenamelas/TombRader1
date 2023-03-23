@@ -1,0 +1,77 @@
+* {
+    background-color: rgb(184, 129, 53);
+    margin: 0;
+}
+
+.topnav {
+    font-family: 'Times New Roman', Times, serif;
+    text-align:center;
+    font-weight: bold;
+    vertical-align: middle;
+    font-size: 25px;
+    width: 100%;
+    height: 55px;
+    position:fixed;
+    margin-top: 125px;
+    z-index: 2;
+}
+    
+a {
+    vertical-align: middle;
+    text-decoration: none;
+    color: red;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;    
+    padding-bottom: 10px;
+    display:inline-block;
+}
+
+a:hover {
+    color: white;
+    background-color: orange;   
+}
+
+mark {
+    z-index: 2;
+}
+
+.one {
+    width: 500px;
+    padding: 50px;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: solid 7px white;
+    max-height: 10cm;
+    max-width: 20cm;
+    margin: 15px;
+    color: rgba(97, 55, 5, 0.792);
+    background-color: rgb(154, 233, 233);
+}
+
+footer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+.instructions {
+    height: 8cm;
+    width: 10cm;
+    border-radius: 50%;
+    position: relative;
+    left: 23cm;
+    bottom: 8cm;
+    border: solid 3px white;
+}
+
+h2 {
+    font-size: 1cm;
+    color: red;
+    font-weight: 600;
+    position: relative;
+    left: 7.5cm;
+}
